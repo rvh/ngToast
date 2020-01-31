@@ -1,9 +1,9 @@
-ngToast [![Code Climate](https://img.shields.io/codeclimate/maintainability/tameraydin/ngToast.svg?style=flat-square&label=code%20climate)](https://codeclimate.com/github/tameraydin/ngToast/dist/ngToast.js) [![Build Status](https://img.shields.io/travis/tameraydin/ngToast/master.svg?style=flat-square)](https://travis-ci.org/tameraydin/ngToast)
+ngToast [![Build Status](https://img.shields.io/travis/rvh/ngToast/master.svg?style=flat-square)](https://travis-ci.org/rvh/ngToast)
 =======
 
 ngToast is a simple Angular provider for toast notifications.
 
-**[Demo](http://tameraydin.github.io/ngToast)**
+**[Demo](http://rvh.github.io/ngToast)**
 
 ## Usage
 
@@ -13,7 +13,7 @@ ngToast is a simple Angular provider for toast notifications.
   # or
   npm install ng-toast --production
   ```
-  or manually [download](https://github.com/tameraydin/ngToast/archive/master.zip).
+  or manually [download](https://github.com/rvh/ngToast/archive/master.zip).
 
 2. Include ngToast source files and dependencies ([ngSanitize](http://docs.angularjs.org/api/ngSanitize), [Bootstrap CSS](http://getbootstrap.com/)):
   ```html
@@ -43,7 +43,7 @@ ngToast is a simple Angular provider for toast notifications.
   app.controller('myCtrl', function(ngToast) {
     ngToast.create('a toast message...');
   });
-  // for more info: http://tameraydin.github.io/ngToast/#api
+  // for more info: http://rvh.github.io/ngToast/#api
   ```
 
 ## Animations
@@ -97,18 +97,18 @@ ngToast comes with optional animations. In order to enable animations in ngToast
 
 ## Settings & API
 
-Please find at the [project website](http://tameraydin.github.io/ngToast/#api).
+Please find at the [project website](http://rvh.github.io/ngToast/#api).
 
 ## Development
 
-* Clone the repo or [download](https://github.com/tameraydin/ngToast/archive/master.zip)
+* Clone the repo or [download](https://github.com/rvh/ngToast/archive/master.zip)
 * Install dependencies: ``npm install && bower install``
 * Run ``grunt watch``, play on **/src**
 * Build: ``grunt``
 
 ## License
 
-MIT [http://tameraydin.mit-license.org/](http://tameraydin.mit-license.org/)
+MIT [http://rvh.mit-license.org/](http://rvh.mit-license.org/)
 
 ## Maintainers
 
