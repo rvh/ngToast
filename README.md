@@ -3,7 +3,7 @@ ngToast [![Build Status](https://img.shields.io/travis/rvh/ngToast/master.svg?st
 
 ngToast is a simple Angular provider for toast notifications.
 
-**[Demo](http://rvh.github.io/ngToast)**
+**[Demo](http://tameraydin.github.io/ngToast)**
 
 ## Usage
 
@@ -43,7 +43,7 @@ ngToast is a simple Angular provider for toast notifications.
   app.controller('myCtrl', function(ngToast) {
     ngToast.create('a toast message...');
   });
-  // for more info: http://rvh.github.io/ngToast/#api
+  // for more info: http://tameraydin.github.io/ngToast/#api
   ```
 
 ## Animations
@@ -97,7 +97,7 @@ ngToast comes with optional animations. In order to enable animations in ngToast
 
 ## Settings & API
 
-Please find at the [project website](http://rvh.github.io/ngToast/#api).
+Please find at the [project website](http://tameraydin.github.io/ngToast/#api).
 
 ## Development
 
